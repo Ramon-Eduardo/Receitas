@@ -1,0 +1,145 @@
+* {
+    font-family: inter;
+}
+
+body {
+    background-color:#FFDB63 ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    margin-top: 30px;
+    background-color:#FFFFFF ;
+    .content {
+        height: 113px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            p {
+                margin: 0;
+                line-height: 1;
+                font-size: 26px;
+            }
+        }
+        .navegacao {
+            display: flex;
+            gap: 20px;
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                color: #2C2B2B ;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.domain {
+    color: #2C2B2B ;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icone {
+    width: 28px;
+    height: 26px;
+    top: 9px;
+}
+
+.banner {
+    background-image: url('../assets/images/wafflesbanner.png');
+    background-size: cover;
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        max-width: 50%;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.passos {
+    padding: 60px 0;
+    background-color: white;
+    max-height: 839px;
+    .receitaWaffle {
+        margin-left: 79px;
+    }
+}
+
+.rodape {
+    background-color: #FFDB63;
+    padding: 80px;
+    .container {}
+
+    .rodapeContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rodapeItems {
+            display: flex;
+            align-items: center;
+            gap: 21px;
+
+            h2 {
+                font-size: 48px;
+            }
+
+        }
+        .redes {
+            h4 {
+                font-size: 26px;
+            }
+            .redesSociais {
+                display: flex;
+                gap: 10px;
+                a {
+                    padding: 10px;
+                    border-radius: 15px;
+                    background-color: #FFE9A1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
